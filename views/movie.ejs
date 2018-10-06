@@ -1,0 +1,4 @@
+<h1>Search result</h1>
+<% parseData["Search"].forEach(function(movie){ %>
+    <li><b><%= movie["Title"] %></b>- <%=movie["Year"] %></li>
+<%}) %>
